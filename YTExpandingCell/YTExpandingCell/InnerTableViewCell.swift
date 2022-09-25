@@ -14,7 +14,7 @@ class InnerTableViewCell: UITableViewCell {
     var things = ["Thing 1", "Thing 2", "Thing 3", "Thing 4", "Thing 5"]
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: .default, reuseIdentifier: MainTableViewCell.reuseIdentifier)
+        super.init(style: .default, reuseIdentifier: InnerTableViewCell.reuseIdentifier)
         
         configure()
     }

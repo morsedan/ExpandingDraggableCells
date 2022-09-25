@@ -22,7 +22,6 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(MainTableViewCell.self, forCellReuseIdentifier: MainTableViewCell.reuseIdentifier)
         tableView.register(InnerTableViewCell.self, forCellReuseIdentifier: InnerTableViewCell.reuseIdentifier)
         tableView.allowsSelection = true
         
@@ -47,7 +46,7 @@ class MainTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if indexPath.row == 0 {
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: MainTableViewCell.reuseIdentifier, for: indexPath) as? MainTableViewCell else { return UITableViewCell() }
+            let cell = UITableViewCell()
             cell.textLabel?.text = tableViewData[indexPath.section].title
             return cell
         } else {

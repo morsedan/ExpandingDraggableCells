@@ -16,7 +16,6 @@
 		C099017F28DF8B6000AD34EF /* YTExpandingCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099017E28DF8B6000AD34EF /* YTExpandingCellUITests.swift */; };
 		C099018128DF8B6000AD34EF /* YTExpandingCellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099018028DF8B6000AD34EF /* YTExpandingCellUITestsLaunchTests.swift */; };
 		C0A6A70128DF8BEA001783D5 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6A70028DF8BEA001783D5 /* MainTableViewController.swift */; };
-		C0A6A70328DFB1E8001783D5 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6A70228DFB1E8001783D5 /* MainTableViewCell.swift */; };
 		C0A6A70528DFDCB3001783D5 /* InnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6A70428DFDCB3001783D5 /* InnerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		C099017E28DF8B6000AD34EF /* YTExpandingCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTExpandingCellUITests.swift; sourceTree = "<group>"; };
 		C099018028DF8B6000AD34EF /* YTExpandingCellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTExpandingCellUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C0A6A70028DF8BEA001783D5 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		C0A6A70228DFB1E8001783D5 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		C0A6A70428DFDCB3001783D5 /* InnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +104,6 @@
 				C099015D28DF8B5F00AD34EF /* AppDelegate.swift */,
 				C099015F28DF8B5F00AD34EF /* SceneDelegate.swift */,
 				C0A6A70028DF8BEA001783D5 /* MainTableViewController.swift */,
-				C0A6A70228DFB1E8001783D5 /* MainTableViewCell.swift */,
 				C0A6A70428DFDCB3001783D5 /* InnerTableViewCell.swift */,
 				C099016328DF8B5F00AD34EF /* Main.storyboard */,
 				C099016628DF8B6000AD34EF /* Assets.xcassets */,
@@ -266,7 +263,6 @@
 			files = (
 				C099015E28DF8B5F00AD34EF /* AppDelegate.swift in Sources */,
 				C0A6A70128DF8BEA001783D5 /* MainTableViewController.swift in Sources */,
-				C0A6A70328DFB1E8001783D5 /* MainTableViewCell.swift in Sources */,
 				C099016028DF8B5F00AD34EF /* SceneDelegate.swift in Sources */,
 				C0A6A70528DFDCB3001783D5 /* InnerTableViewCell.swift in Sources */,
 			);
